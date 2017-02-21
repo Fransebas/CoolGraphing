@@ -176,7 +176,7 @@ if __name__ == "__main__":
     print ( points )
 
     ls = LeastSquare(points, fs =
-                     """def f(x): return %$1$*x% + %$0$%
+                     """def f(x): return %$6$*x**6% + %$5$*x**5% + %$4$*x**4% + %$3$*x**3% + %$2$*x**2% + %$1$*x% + %$0$%
     """)
 
     """
